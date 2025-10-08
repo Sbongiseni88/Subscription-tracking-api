@@ -7,4 +7,4 @@ config({path: `.env.${process.env.NODE_ENV || 'development'}.local`} );
 // This allows for different configurations in development, testing, and production environments
 // Make sure to install dotenv package: npm install dotenv
 
-export const{PORT,NODE_ENV}= process.env;
+export const{PORT,NODE_ENV,DB_URL}= process.env;
